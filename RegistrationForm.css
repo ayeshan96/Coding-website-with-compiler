@@ -1,0 +1,99 @@
+body{
+    background-image: url("Resources/registrationform.jpg");
+    height: 100%;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+#FillForm{
+    border-style: inset;
+    position: relative;
+    left:34%;
+    height: fit-content;
+    top: 100px;
+    width: 510px;
+    background-color: rgba(79, 226, 153, 0.719);
+    opacity: 0.8;
+}
+#L1{
+    position: relative;
+    text-align: center;
+    top:75px;left:40%;
+    font-size: 50px;
+    color: white;
+    font-family: cursive;
+}
+#fname,#lname,#uname,#passw1,#passw2,#email{
+    position: relative;
+    display: inline-block;
+    font-size: 30px;
+    left: 10px;
+    font-family: cursive;
+    font-size: 20px;
+}
+#InputBoxe1{
+    position: relative;
+    display: inline-block;
+    height: 30px;
+    left: 85px;
+    background: rgb(225, 238, 236);
+    border: thin;
+    font-family: cursive;font-size: 20px;
+}
+#InputBoxe2{
+    position: relative;
+    display: inline-block;
+    height: 30px;
+    left: 93px;
+    background: rgb(225, 238, 236);
+    border: thin;font-family: cursive;font-size: 20px;
+}
+#InputBoxe3{
+    position: relative;
+    display: inline-block;
+    height: 30px;
+    left: 135px;
+    background: rgb(225, 238, 236);
+    border: thin;font-family: cursive;font-size: 20px;
+}
+#InputBoxe4{
+    position: relative;
+    display: inline-block;
+    height: 30px;
+    left: 105px;
+    background:rgb(225, 238, 236);
+    border: thin;font-family: cursive;font-size: 20px;
+}
+#InputBoxe5{
+    position: relative;
+    display: inline-block;
+    height: 30px;
+    left: 17px;
+    background: rgb(225, 238, 236);
+    border: thin;font-family: cursive;font-size: 20px;
+}
+#InputBoxe6{
+    position: relative;
+    display: inline-block;
+    height: 30px;
+    left: 144px;
+    background:rgb(225, 238, 236);
+    border: thin;font-family: cursive;font-size: 20px;
+}
+#submitbtn{
+    border-radius: 30px;
+    position: relative;
+    left: 220px;
+    height: fit-content;
+    width: fit-content;
+    font-size: 30px;
+    font-family: cursive,'Times New Roman';
+
+}
+#submitbtn:hover{
+    opacity: .5;
+    
+}
+#err{
+    color: red;
+}

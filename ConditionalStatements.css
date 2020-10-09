@@ -1,0 +1,126 @@
+#strip{
+    background-color: rgb(14, 231, 133);
+    padding: 50px;
+    color: white;
+    font-size: 30px;
+}
+
+
+  
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+.Compete{
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+.LeaderBoard{
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+.Logout{
+   background-color: #336600;
+   color: white;
+   padding: 16px;
+   font-size: 16px;
+   border: none;
+}
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+  /* Div Font settings*/
+ .para1{
+    font-size: 30px;
+    position: relative;
+    top:50px;
+    width: 1700px;
+    
+ }
+ .para2{
+    font-size: 30px;
+    position: relative;
+    top:100px;
+    width: 1700px;
+    
+ }
+ .para3{
+    font-size: 30px;
+    position: relative;
+    top:150px;
+    width: 1700px;
+    
+ }
+ .para4{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkblue;
+    position: relative;
+    top:200px;
+    width: 1700px;
+    
+ }
+ .tutorial{
+    position: relative;
+    top:250px; 
+    left: 200px;
+ }
+ .TryNow{
+    position: relative;
+    background-color: rgb(235, 23, 140);
+    color: white;
+    padding: 16px;
+    font-size: 50px;
+    border: none;
+    top:355px;
+    left: -500px;
+    border-block-color: black;
+    border-radius: 30px;
+    
+    
+ }
+ .TryNow:hover{
+     opacity: .5;
+ }
+ 

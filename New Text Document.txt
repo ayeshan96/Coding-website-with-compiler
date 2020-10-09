@@ -1,0 +1,24 @@
+CREATE TABLE idtable (
+     id MEDIUMINT NOT NULL AUTO_INCREMENT,
+     username CHAR(30) NOT NULL,
+     password CHAR(30) NOT NULL,
+     PRIMARY KEY (id)
+);
+CREATE TABLE emailtable (
+     id MEDIUMINT NOT NULL AUTO_INCREMENT,
+     email CHAR(30) NOT NULL,
+     PRIMARY KEY (id)
+);
+
+CREATE TABLE infotable (
+     id MEDIUMINT NOT NULL AUTO_INCREMENT,
+     firstname CHAR(30) NOT NULL,
+     lastname CHAR(30) NOT NULL,
+     score int NOT NULL,
+     PRIMARY KEY (id)
+);
+CREATE TABLE imgtable (
+     id MEDIUMINT NOT NULL AUTO_INCREMENT,
+     url CHAR(30) NOT NULL,
+     PRIMARY KEY (id)
+);

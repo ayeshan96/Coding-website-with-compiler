@@ -1,0 +1,36 @@
+body{
+	background-image: url("Resources/Login.jpg");
+	height: 100%;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+button {
+	background-color: rgb(24, 233, 31);
+	color: white;
+	padding: 15px 0px;
+	margin: 0px;
+	border: none;
+	cursor: pointer;
+	width: 15%;
+	border-radius: 100px
+  }
+  button:hover {
+	opacity: 0.5;
+  }
+label {  display: block;}
+#username{position: relative; visibility: visible; left: 150px; top: 250px; z-index: 200;font-size: 30px;color: white;}
+#password{position: relative; visibility:visible; left: 0px; top: 75px; z-index: 200;font-size: 30px;color: white;} 
+#loginbtn{position: relative; visibility:visible; left: 0px; top: 75px; z-index: 200;}
+#INusername{
+    height:40px;
+    font-size:20pt;
+	background-color: rgb(195, 240, 197);
+	border: 10px;
+}
+#INpassword{
+    height:40px;
+    font-size:20pt;
+    background-color: rgb(195, 240, 197);
+    border: thin;
+}
